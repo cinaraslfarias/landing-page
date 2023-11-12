@@ -175,7 +175,7 @@ article {
 
     input {
         align-self: center;
-        width: 100px;
+        width: 100%;
     }
 
     .profile_img {
@@ -184,6 +184,7 @@ article {
 
     ul {
         text-align: center;
+        padding: 0;
     }
 
     aside {
@@ -211,6 +212,16 @@ article {
 
     .content span {
         font-size: 15px !important;
+    }
+
+    .content .box {
+        width: 60%;
+    }
+
+    article {
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
     }
 }
 
